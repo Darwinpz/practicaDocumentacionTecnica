@@ -1,4 +1,4 @@
-# Programa de Suma de Dos Números v1.0.1
+# Programa de Suma de Dos Números BMV-JIRA
 
 Este es un programa básico en Python que permite sumar dos números ingresados por el usuario.
 
