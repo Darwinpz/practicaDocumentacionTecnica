@@ -1,4 +1,4 @@
-# Programa de Suma de Dos Números
+# Programa de Suma de Dos Números v1.0.1
 
 Este es un programa básico en Python que permite sumar dos números ingresados por el usuario.
 
@@ -7,8 +7,6 @@ Este es un programa básico en Python que permite sumar dos números ingresados 
 - Tener instalado Python 3 en tu computadora.
 
 Puedes descargar Python desde:
-
-:contentReference[oaicite:0]{index=0}
 
 ## ▶️ Cómo ejecutar el programa
 
