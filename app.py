@@ -1,11 +1,25 @@
-# Programa básico para sumar dos números
+# Programa mejorado para sumar dos números
 
-# Pedir los números al usuario
-numero1 = float(input("Ingresa el primer número: "))
-numero2 = float(input("Ingresa el segundo número: "))
+def obtener_numero(mensaje):
+    """Solicita un número al usuario y valida la entrada."""
+    while True:
+        try:
+            return float(input(mensaje))
+        except ValueError:
+            print("❌ Error: Debes ingresar un número válido.")
 
-# Realizar la suma
-resultado = numero1 + numero2
+def main():
+    print("=" * 40)
+    print("      CALCULADORA DE SUMA    ")
+    print("=" * 40)
 
-# Mostrar el resultado
-print("La suma es:", resultado)
+    numero1 = obtener_numero("Ingresa el primer número: ")
+    numero2 = obtener_numero("Ingresa el segundo número: ")
+
+    resultado = numero1 + numero2
+
+    print("\n📊 Resultado")
+    print(f"{numero1} + {numero2} = {resultado}")
+
+if __name__ == "__main__":
+    main()
